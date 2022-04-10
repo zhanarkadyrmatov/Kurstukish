@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Janar</title>
+    <link rel="stylesheet" href="bootstrap css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="img/лого.svg" alt="Logo" />
+          </a>
+          <button
+            class="navbar-toggler header__nav-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item header__nav-item">
+                <a
+                  class="nav-link active header__nav-link"
+                  aria-current="page"
+                  href="#"
+                  >Главная</a
+                >
+              </li>
+              <li class="nav-item header__nav-item">
+                <a class="nav-link header__nav-link" href="#">Экскурсии</a>
+              </li>
+              <li class="nav-item header__nav-item">
+                <a class="nav-link header__nav-link" href="#">Личный кабинет</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="banner__title">ПУТЕШЕСТВУЙ</h2>
+              <p class="banner__text">PERO TRAVEL</p>
+              <a href="#" class="btn banner__btn">К экскурсиям</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="cat">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">Популярные экскурсии</h2>
+            <div class="cat__bg cat__1 col-12 col-md-4">
+              <div class="cat__item cat__item--men mb-4">
+                <h2 class="cat__item-title">Конный тур</h2>
+                <h3 class="cat__item-text">Конные прогулки</h3>
+                <ul class="cat__item-ul">
+                  <li class="cat__item-li">1,5 часа</li>
+                  <li class="cat__item-li-1">1 809 ₽</li>
+                </ul>
+                <p class="cat__item-p">
+                  Конные прогулки проходят в Лазурной долине. С долины
+                  открывается красивый вид на море, горы и лес. На всем пути
+                  следования экскурсии вас будут сопровождать опытные
+                  инструктора. Катание на лошадях или иппотерапия очень полезна
+                  для детей и взрослых...
+                </p>
+                <a class="btn cat__btn" href="">Подробнее</a>
+              </div>
+            </div>
+
+            <div class="cat__bg-1 cat__1 col-12 col-md-4">
+              <div class="cat__item cat__item--men mb-4">
+                <h2 class="cat__item-title">Квадротур</h2>
+                <h3 class="cat__item-text">Пасть дракона</h3>
+                <ul class="cat__item-ul">
+                  <li class="cat__item-li">2,5 часа</li>
+                  <li class="cat__item-li-1">3 515 ₽</li>
+                </ul>
+                <p class="cat__item-p">
+                  Маршрут на Квадроциклах проходит по горной реке Мзымта вдоль
+                  белых скал и самшитовый лес к водопаду Глубокий Яр или "Пасть
+                  Дракона" (экскурсионное название). Высота водопада 41,5 метр -
+                  это один из самых высоких водопадов Большого Сочи...
+                </p>
+                <a class="btn cat__btn" href="">Подробнее</a>
+              </div>
+            </div>
+            <div class="cat__bg-2 cat__1 col-12 col-md-4">
+              <div class="cat__item cat__item--men mb-4">
+                <h2 class="cat__item-title">Автобусный тур</h2>
+                <h3 class="cat__item-text">Обзорная по Сочи (из Адлера)</h3>
+                <ul class="cat__item-ul">
+                  <li class="cat__item-li">6 часов</li>
+                  <li class="cat__item-li-1">1618 ₽</li>
+                </ul>
+                <p class="cat__item-p">
+                  Приглашаем вас на экскурсию "Обзорная по Большому Сочи":
+                  Экскурсия начнется с подъёма на гору Большой Ахун - это высшая
+                  точка (665 метров) на побережьи Сочи. На вершине горы Большой
+                  Ахун есть смотровая башня, построенная в 1935-36 годах по
+                  проекту архитектора С. И. Воробьева...
+                </p>
+                <a class="btn cat__btn" href="">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cati">
+        <div class="container">
+          <div class="rom cat__blog">
+            <div class="col">
+              <div class="cat__title">
+                <h2 class="cat__title-h2">О нас</h2>
+                <p class="cat__title-p">
+                  PeroTravel - Первый онлайн-сервис по бронированию экскурсий
+                  без очередей и операторов. Lorem ipsum dolor sit amet,
+                  consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                  ea commodo consequat.
+                </p>
+                <p class="cat__title-p">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  x doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                  illo inventore veritatis et quasi architecto beatae vitae
+                  dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">Виды экскурсий</h2>
+            <div class="blog__0 col-12 col-md-6">
+              <img class="blog__img" src="img/1.png" alt="img" />
+              <div class="blog__1">
+                <h2 class="blog__title">Автобусный тур</h2>
+                <p class="blog__text">
+                  Один из самых насыщенных впечатлениями, доступных по цене и
+                  популярных видов отдыха. Во время одной поездки можно
+                  посмотреть достопримечательности сразу нескольких городов,
+                  причем обойдется это едва ли не в разы дешевле классического
+                  экскурсионного тура с ночевками в отелях.
+                </p>
+              </div>
+            </div>
+            <div class="blog__0 col-12 col-md-6">
+              <img class="blog__img" src="img/3.png" alt="img" />
+              <div class="blog__1">
+                <h2 class="blog__title">Яхтинг</h2>
+                <p class="blog__text">
+                  Это то же, что круиз на лайнере или прогулка на пароме, только
+                  на яхте больше свободы, размеры судна в разы меньше, нет
+                  назойливой команды, можно самостоятельно почувствовать себя
+                  капитаном, постоять за штурвалом. Именно здесь вы почувствуете
+                  величайшие просторы Черногор моря..
+                </p>
+              </div>
+            </div>
+            <div class="blog__0 col-12 col-md-6">
+              <img class="blog__img" src="img/4.png" alt="img" />
+              <div class="blog__1">
+                <h2 class="blog__title">Каньонинг</h2>
+                <p class="blog__text">
+                  Это экстремально-спортивный вид отдыха, который заключается в
+                  преодолении каньонов (обводненных или нет) при помощи
+                  альпинистского и иного снаряжения, а иногда и вброд, но без
+                  лодок или иных плавсредств.
+                </p>
+              </div>
+            </div>
+            <div class="blog__0 col-12 col-md-6">
+              <img class="blog__img" src="img/02.png" alt="img" />
+              <div class="blog__1">
+                <h2 class="blog__title">Джиппинг</h2>
+                <p class="blog__text">
+                  Это путешествие на автомобилях высокой проходимости с
+                  преодолением естественных препятствий, это экстремальный вид
+                  спорта и отдыха, представляющий собой прохождение
+                  туристического маршрута по бездорожью на автомобилях.
+                </p>
+              </div>
+            </div>
+            <div class="blog__2">
+              <p class="blog__p">
+                Выбирайте на нашем сайте экскурсию, которая подходит именно
+                <br />
+                вам и записывайтесь онлайн без очередей, просто и быстро!
+              </p>
+              <a class="btn blog__btn" href="">К экскурсиям</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="galleria">
+        <div class="container">
+          <h2 class="section-title">Галерея</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <img
+                src="./img/g7.png"
+                class="w-100 shadow-1-strong rounded mb-4 gal__img img"
+                alt="Boat on Calm Water"
+              />
+
+              <img
+                src="./img/g3.png"
+                class="w-100 shadow-1-strong rounded mb-4 gal__img"
+                alt="Wintry Mountain Landscape"
+              />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img
+                src="./img/g1.png"
+                class="w-100 shadow-1-strong rounded mb-4 gal__img"
+                alt="Mountains in the Clouds"
+              />
+
+              <img
+                src="./img/g2.png"
+                class="w-100 shadow-1-strong rounded mb-4 gal__img"
+                alt="Boat on Calm Water"
+              />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <img
+                src="./img/g8.png"
+                class="w-100 shadow-1-strong rounded mb-4 img gal__img"
+                alt="Waves at Sea"
+              />
+
+              <img
+                src="./img/g4.png"
+                class="w-100 shadow-1-strong rounded mb-4 gal__img"
+                alt="Yosemite National Park"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2 class="section-title">Отзывы</h2>
+          <div class="about__0">
+            <img
+              class="about__img figure-img"
+              src="./img/WhatsApp Image 2022-03-08 at 12.14.14.jpeg"
+              alt="img"
+            />
+            <div class="about__1">
+              <h2 class="about__title">Janar Kadyrmatov</h2>
+              <p class="abotu__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <div class="contact__1">
+            <div class="contact__blog col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <h2 class="contact__title">Остались вопросы?</h2>
+              <p class="contact__text">Оставь заявку и мы ответим</p>
+              <form action="">
+                <input type="name" placeholder="Имя" />
+                <input type="number" placeholder="Телефон" />
+                <input type="gmail" placeholder="Почта" />
+                <button class="btn">Оставить заявку</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__1">
+          <ul class="footer__menu">
+            <a class="footer__logo-link" href="#">
+              <img
+                class="footer__logo"
+                src="./img/logo_footer 1.svg"
+                alt="logo"
+              />
+            </a>
+          </ul>
+          <ul class="footer__menu-0">
+            <li class="footer__item">
+              <a class="footer__link" href="#">Главная</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Экскурсии</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Личный кабинет</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-1">
+            <li class="footer__item">
+              <a class="footer__link link-1" href="#">0(504) 80 20 02</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link link-2" href="#">0(995) 01 21 00</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link link-3" href="#">Telegram канал</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-2">
+            <li class="footer__item">
+              <a class="footer__link link-4" href="#"
+                >zhanarkadyrmatov@gmail.com</a
+              >
+            </li>
+            <li class="footer__item">
+              <a class="footer__link-1" href=""></a>
+              <a class="footer__link-2" href=""></a>
+              <a class="footer__link-3" href=""></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
